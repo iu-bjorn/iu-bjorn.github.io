@@ -24,10 +24,10 @@ export const headerData = {
       //   },
       // ],
     },
-    {
-      text: 'About us',
-      href: getPermalink('/about'),
-    },
+    // {
+    //   text: 'About us',
+    //   href: getPermalink('/about'),
+    // },
     {
       text: 'Contact',
       href: getPermalink('/contact'),
@@ -146,9 +146,6 @@ export const footerData = {
       links: [
         { text: 'Developer API', href: '#' },
         { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
       ],
     },
     {
